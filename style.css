@@ -1,0 +1,139 @@
+html, body {margin:0;padding:0;height:100%;}
+body {
+  background-size: cover;
+  background-color: #111111;
+  overflow: hidden;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  background-color: #cdcdcd;
+  max-width: 300px;
+  padding-right: 5px;
+  padding-left: 5px;
+  height: 100%;
+}
+
+.row {
+  margin-right:-5px;
+  margin-left:-5px;
+  height: 100%;
+}
+
+.col-xs-3 {
+  height: 100%;
+  background-color: #eeeeee;
+  padding-right: 0px;
+  padding-left: 0px;
+
+}
+
+.player {
+  position: absolute;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 90%;
+  height: 40%;
+  bottom: 0px;
+}
+
+.scoreline {
+  background-color: #4e4e4e;
+  position: absolute;
+  top: 10px;
+  bottom: 0%;
+  left: 45%;
+  right: 45%;
+}
+
+.player img {
+  width: 100%;
+  position: absolute;
+  top:5px;
+}
+
+.scorecontrol {
+  position: absolute;
+  width:100%;
+  background-color: #999999;
+  height: 70px;
+  bottom: 0px;
+}
+
+.form-control {
+}
+
+.form-group-sm {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.scorecounter {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0px;
+  font-weight: 800;
+}
+
+h4 {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.btn {
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.master-button {
+  position: absolute;
+  height: 30px;
+  bottom: 3px;
+  width: 300px;
+}
+
+.btn-master-button {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+}
+
+.score-popout {
+  border-radius: 3%;
+  position: fixed;
+  top: 10%;
+  bottom: 10%;
+  left: 10%;
+  right: 10%;
+  z-index: 2;
+  background-color: #aaaaaa;
+}
+
+.final-score {
+  position: relative;
+  height: 25%;
+  left: 0%;
+  right: 0%;
+}
+
+.final-score-image {
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  left: 10px;
+  height: 80%;
+}
+
+.final-score-text {
+  position: absolute;
+  right: 40px;
+  top: 30%;
+  vertical-align: middle;
+}
